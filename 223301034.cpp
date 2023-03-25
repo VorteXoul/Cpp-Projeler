@@ -8,7 +8,7 @@ int main(){
 	bool esc=true;
 	while(esc==true){
 		cout << "Enter the calculate process(If you want exit,press ESC) : ";
-		x=getch();																	//Esc çıktısı bekleniyor eger esc basılmazsa program devam ediyor
+		x=getch();							//Esc çıktısı bekleniyor eger esc basılmazsa program devam ediyor
 		if((char)x==27){
 			esc=false;
 			break;
