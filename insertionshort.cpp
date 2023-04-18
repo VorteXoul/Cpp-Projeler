@@ -29,5 +29,4 @@ int main() {
     std::cout << "Array Size : ";
     std::cin >>size; 
     insertionsort(size);
-    std::cin >> size;
 }
